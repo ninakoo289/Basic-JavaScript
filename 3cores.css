@@ -1,0 +1,15 @@
+h2 {
+        color: aqua;
+         background-color: antiquewhite;
+        text-align: center;
+        front-size: 4rem;
+    }
+    body {
+        background-color: darksalmon;
+    }
+
+    <body>
+    <input id="in1" type="text" placeholder="Text Color">
+    <input id="in2" type="text" placeholder="Background Color">
+    <button onclick="ChangeColor()"> Change Color</button>
+    <h2 style="padding: 1rem;"></h2>
